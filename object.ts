@@ -32,6 +32,42 @@
 // createUser({name:'',email:'', isActive:false})
 
 
+type User = {
+    readonly _id:string
+    name:string;
+    email:string;
+    isActive:boolean;
+    creditcardDetails? :number;
+}
+
+const myUser:User = {_id:'1234' ,name:'asim', email:'asim@', isActive:true}
+
+myUser.name = 'asimuu' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
