@@ -44,6 +44,16 @@ const myUser:User = {_id:'1234' ,name:'asim', email:'asim@', isActive:true}
 
 myUser.name = 'asimuu' 
 
+type cardNumber={
+    num:string;
+}
+// & use to connect 
+type  cardDetails = cardNumber & cardDate & {  
+    cvv:number;
+}
+type cardDate={
+    cardDate:string;
+}
 
 
 
