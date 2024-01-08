@@ -1,5 +1,5 @@
 class User{
-  private _courseCount = 1
+  protected _courseCount = 1
     private readonly city : string ='kapilvastu'
     constructor(public email:string, public name:string, 
         // private userId : string
@@ -25,7 +25,12 @@ this._courseCount= courseNum
     }
 }
 
-
+class SubUser extends User{
+    isFamily:boolean= true
+    changeCourseCount(){
+        this._courseCount=4
+    }
+}
 
 // class User{
 //    public email:string
