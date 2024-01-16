@@ -28,3 +28,11 @@ getCoupon:(name:'asim', off:10)=>{
 }
 
 asim.email="neupane"
+
+
+
+function declare(str:string){
+console.log(str)
+}
+
+declare("Hello World")
